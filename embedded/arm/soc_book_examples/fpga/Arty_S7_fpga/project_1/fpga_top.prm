@@ -1,0 +1,11 @@
+===================================
+Configuration Memory information
+===================================
+File Format        MCS
+Interface          SPIX4
+Size               16M
+Start Address      0x00000000
+End Address        0x00FFFFFF
+
+Addr1         Addr2         Date                    File(s)
+0x00000000    0x0021728B    Jul  6 20:04:50 2019    C:/Users/Joseph Yiu/work/Arty_S7/cm3_test1/project_1/project_1.runs/impl_1/fpga_top.bit

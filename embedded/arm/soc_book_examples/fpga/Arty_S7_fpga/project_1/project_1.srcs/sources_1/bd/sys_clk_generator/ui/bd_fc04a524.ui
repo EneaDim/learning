@@ -1,0 +1,19 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "PinnedBlocks":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port clk_in1_0 -pg 1 -lvl 0 -x -20 -y -150 -defaultsOSRD
+preplace port clk_out1_0 -pg 1 -lvl 2 -x 220 -y -170 -defaultsOSRD
+preplace port locked_0 -pg 1 -lvl 2 -x 220 -y -150 -defaultsOSRD
+preplace port resetn_0 -pg 1 -lvl 0 -x -20 -y -170 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 100 -y -160 -defaultsOSRD
+preplace netloc clk_in1_0_1 1 0 1 NJ -150
+preplace netloc clk_wiz_0_clk_out1 1 1 1 NJ -170
+preplace netloc clk_wiz_0_locked 1 1 1 NJ -150
+preplace netloc resetn_0_1 1 0 1 NJ -170
+levelinfo -pg 1 -20 100 220
+pagesize -pg 1 -db -bbox -sgen -130 -230 340 140
+"
+}
+

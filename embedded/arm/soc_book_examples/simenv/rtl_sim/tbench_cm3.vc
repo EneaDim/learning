@@ -1,0 +1,50 @@
+// ----------------------------------------------
+// Example code for
+//
+// System-on-Chip Design with Arm(R) Cortex(R)-M 
+// Processors
+//
+// Reference Book
+//          by Joseph Yiu, 2019 (first edition)
+// 
+// ISBN: 978-1-911531-19-7
+// Arm Education Media
+// https://www.armedumedia.com
+//
+// Disclaimer
+// This example design is created for educational
+// purpose only and are not validated to the same 
+// quality level as Arm IP products. 
+// Arm Education Media and author do not make any 
+// warranties of these designs.
+// ----------------------------------------------
+// Purpose: Verilog Command File for Cortex-M3 
+//          simulations
+// ----------------------------------------------
+
+
+
+// ============= Verilog library extensions ===========
++libext+.v+.vlib
+
+// ============= Module search path =============
+
+// The cortexm3integration_ds directory do have a 
+// CORTEXM3INTEGRATIONDS. This is used for simulation
+// with full RTL or DSM (Design Simulation Model).
+//-y ../../fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds/verilog/
+
+// For simulation with DesignStart eval with obfusicated 
+// Cortex-M3 model, use the CORTEXM3INTEGRATIONDS in this
+// directory
+-y ../../fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds_obs/verilog/
+-y ../../fpga/Arty_S7_fpga/mcu_system
+-y .
+
+// ============= Include file search path =============
+//+incdir+dirname
++incdir+../../fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds_obs/verilog/
++incdir+./
+
+../../fpga/Arty_S7_fpga/cortex_m3_designstart_eval/cortexm3integration_ds/verilog/cm3_code_mux.v
+tbench_cm3.v

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"sys_clk_generator": {
+			"proto_instances": {
+			}
+		}
+	}
+}
